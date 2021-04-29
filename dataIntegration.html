@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Aroha | dataIntegration</title>
+
+    <meta name="author" content="themesflat.com">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" >
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+    
+    <!-- Animation Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/datamanagment.css">
+    
+
+    <!-- Favicon and touch icons  -->
+    <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed" sizes="48x48">
+    <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="icon/favicon1.png" rel="shortcut icon">
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>                                 
+<body class="header-sticky page-loading">   
+    <div class="loading-overlay">
+    </div>
+    
+    <!-- Boxed -->
+    <div class="boxed">
+        <div id="site-header">
+            <header id="header" class="header clearfix"> 
+                <div class="header-wrap clearfix">
+                    <div class="container">
+                        <div class="row">
+                            <div class="flat-wrapper">
+                                <div id="logo" class="logo">
+                                    <a href="home.html">
+                                        <img src="images/logosmall.png" alt="images">
+                                    </a>
+                                </div><!-- /.logo -->
+                                <div class="btn-menu">
+                                    <span></span>
+                                </div><!-- //mobile menu button -->
+                           
+                                <div class="nav-wrap">                                
+                                    <nav id="mainnav" class="mainnav">
+                                        <ul class="menu">
+                                            <li class="home">
+                                                <a href="home.html">Home</a>
+                                            </li>
+                                            <!--Platform-->
+                                            <li class="resources has-mega-menu">
+                                                <a class="has-mega" href="#">Platform</a>
+                                                <div class="submenu mega-menu menu2">
+                                                    <div class="col-md-12 tabs-container">
+                                                        <div class="col-md-2 col-sm-2 no-padding">
+                                                          <ul class="nav nav-tabs tabs-left">
+                                                            <li class="active" id="defaultOpen" onmouseover="learning(event, 'tab1-v')">Learning360.AI</li>
+                                                            <li onmouseover="openSales(event, 'tab2-v')">My360.AI</li>
+                                                          </ul>
+                                                        </div>
+                                                      
+                                                        <div class="col-md-10 col-sm-10 no-padding1"> 
+                                                            <div class="tab-content">
+                                                              <div class="tabpane active" id="tab1-v">
+                                                                <div class="col-md-3 col-sm-3 border-right">
+                                                                    <a href="aboutlearning360.html"><img src="images/company1.png">
+                                                                    <p>About Learning360.AI</p></a>
+                                                                  </div>
+                                                                <div class="col-md-3 col-sm-3 border-right">
+                                                                    <a href="learning360.html"><img src="images/company4.png">
+                                                                    <p>Apps in Platform</p></a>
+                                                                </div>
+                                                                
+                                                                <div class="clearfix"></div>
+                                                        
+                                                              </div>
+                                                              <div class="tabpane" id="tab2-v">
+                                                                  <div class="col-md-3 col-sm-3 border-right">
+                                                                      <a href="aboutmy360.html"><img src="images/company4.png">
+                                                                      <p>About My360.AI </p></a>
+                                                                    </div>
+                                                                  <div class="col-md-3 col-sm-3 border-right">
+                                                                      <a href="salesAnalytics.html"><img src="images/company1.png">
+                                                                      <p>Sales Analytics </p></a>
+                                                                    </div>
+                                                                    <div class="col-md-3 col-sm-3 border-right">
+                                                                      <a href="financeAnalytics.html"><img src="images/company2.png">
+                                                                      <p>Cash Flow Analytics</p></a>
+                                                                  </div>
+                                                                <div class="clearfix"></div>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        <div class="clearfix"></div>
+                                                      </div>
+                                                      
+                                                </div><!-- /.submenu -->
+                                            </li><!--/.platform-->
+                                            <li class="has-mega-menu active">
+                                                <a class="has-mega" href="#mega">Technologies</a>
+                                                <div class="submenu mega-menu menu2">
+                                                    <div class="row">
+                                                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                                                <div class="entry-cover">
+                                                                    <a href="dataManagment.html">
+                                                                        <img src="images/huddle.png" alt="images">
+                                                                        <span>Data Management</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-2 -->
+
+                                                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                                                <div class="entry-cover">
+                                                                    <a href="dataIntegration.html">
+                                                                        <img src="images/job-portal.png" alt="images">
+                                                                        <span>Data Integration and Virtualization</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-2 -->
+                                                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                                                <div class="entry-cover">
+                                                                    <a href="dataReport.html">
+                                                                        <img src="images/App1.png" alt="images">
+                                                                        <span>Data Story Telling</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-2 -->
+                                                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                                                <div class="entry-cover">
+                                                                    <a href="digitalTechnologies.html">
+                                                                        <img src="images/App2.png" alt="images">
+                                                                        <span>Digitalization</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-2 -->
+                                                            <div class="flat-divider d40px"></div>
+                                                            
+                                                        
+                                                        <div class="flat-divider d40px"></div>
+                                                    </div><!-- /.row -->
+                                                    <div class="row">
+                                                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                                                <div class="entry-cover">
+                                                                    <a href="dataWarehouse.html">
+                                                                        <img src="images/App3.png" alt="images">
+                                                                        <span>Data Warehouse & Data Lakes</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-2 -->
+
+                                                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                                                <div class="entry-cover">
+                                                                    <a href="cloudTechnologies.html">
+                                                                        <img src="images/cloud.png" alt="images">
+                                                                        <span>Cloud Technologies</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-2 -->
+                                                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                                                <div class="entry-cover">
+                                                                    <a href="mobileTechnologies.html">
+                                                                        <img src="images/DataAnalysis.png" alt="images">
+                                                                        <span>Mobile Technologies</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-2 -->
+                                                            <div class="col-md-3 col-sm-3 col-xs-6">
+                                                                <div class="entry-cover">
+                                                                    <a href="openSource.html">
+                                                                        <img src="images/DataAnalysis.png" alt="images">
+                                                                        <span>Open Source</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-2 -->
+                                                    </div><!-- /.row -->
+                                                </div><!-- /.submenu -->
+                                            </li><!-- /.flat-mega-menu -->
+                                            <li class="has-mega-menu">
+                                                <a class="has-mega" href="#mega">Services</a>
+                                                <div class="submenu mega-menu menu2">
+                                                    <div class="row">
+                                                        <div class="col-md-3 col-sm-3">
+                                                            <div class="entry-cover">
+                                                                <a href="consulting.html">
+                                                                    <img src="images/services/services3.png" alt="images">
+                                                                    <span>Consulting Services</span>
+                                                                </a>
+                                                            </div>
+                                                        </div><!-- /.col-md-3 -->
+                                                        <div class="col-md-3 col-sm-3">
+                                                            <div class="entry-cover">
+                                                                <a href="knowledge.html">
+                                                                    <img src="images/services/services1.png" alt="images">
+                                                                    <span>Knowledge Service</span>
+                                                                </a>
+                                                            </div>
+                                                        </div><!-- /.col-md-3 -->
+                                                            <div class="col-md-3 col-sm-3">
+                                                                <div class="entry-cover">
+                                                                    <a href="projectService.html">
+                                                                        <img src="images/services/services2.png" alt="images">
+                                                                        <span>Managed Services</span>
+                                                                    </a>
+                                                                </div>
+                                                            </div><!-- /.col-md-3 -->
+                                                        </div><!-- /.row -->
+                                                </div><!-- /.submenu -->
+                                            </li><!-- /.flat-mega-menu -->      
+                                            <li class="resources has-mega-menu">
+                                                <a class="has-mega" href="#">Resources</a>
+                                                <div class="submenu mega-menu menu2">
+                                                    <div class="row">
+                                                            <div class="col-md-6 ">
+                                                                <div class="mega-title">
+                                                                    <h5 class="btn-mega">BLOGPOSTS</h5>
+                                                                </div>
+                                                                <ul class="mega-menu-sub"> 
+    <li><a href="blog-EltActivity.html">Top 10 ETL Activities in DW Projects</a></li>
+    <li><a href="blog-storytelling.html">Finding Story / 360 in Data sets</a></li>                  
+    <li><a href="blog-platform.html">Importance of Analytics Platform for Small Business</a></li>
+    <li><a href="blog.html" class="resources_data">See more blogs</a></li>
+</ul>
+                                                            </div><!-- /.col-md-2 -->
+                                                            <div class="col-md-6">
+                                                                <div class="mega-title">
+                                                                    <h5 class="btn-mega">Books</h5>
+                                                                </div>
+                                                                <ul class="mega-menu-sub"> 
+                                                                   <li><a href="books.html">ABC dataWarehousing</a></li>
+                                                                  <li><a href="books1.html">Retail 101 Glossary</a></li>
+                                                                    <!-- <li><a href="books1.html">Digital problems and solutions</a></li>                  
+                                                                    <li><a href="books2.html">Can Business Executives develop store</a></li>
+                                                                    <li><a href="blog.html" class="resources_data">See more books</a></li>     -->  
+                                                                </ul>
+                                                            </div><!-- /.col-md-2 -->
+                                                            <!-- /.col-md-2 -->
+                                                        </div><!-- /.row -->
+                                                    </div><!-- /.submenu -->
+                                            </li>
+                                            <!--Company-->
+                                            <li class="resources has-mega-menu">
+                                                <a class="has-mega" href="#">Company</a>
+                                                <div class="submenu mega-menu menu">
+                                                    <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="mega-title">
+                                                                    <h5 class="btn-mega">About</h5>
+                                                                </div>
+                                                                <ul class="mega-menu-sub"> 
+                                                                    <!-- <li><a href="coreValues.html">Our Core Values</a></li> -->
+                                                                    <li><a href="approach.html">Our Approach</a></li>                  
+                                                                   <li><a href="culture.html">Our Culture</a></li>
+                                                                    <li><a href="team.html">Our Team</a></li>                                                   
+                                                                    <!-- <li><a href="values.html" class="resources_data">Read more</a></li> -->
+                                                                </ul>
+                                                            </div><!-- /.col-md-2 -->
+                                                            <div class="col-md-4">
+                                                                <div class="mega-title">
+                                                                    <h5 class="btn-mega">Careers</h5>
+                                                                </div>
+                                                                <ul class="mega-menu-sub"> 
+                                                                    <li><a href="career.html">.NET Developer</a></li>
+                                                                    <li><a href="career1.html">Angular Developer</a></li>     
+                                                                    <li><a href="career2.html">MSBI Developer</a></li>       
+                                                                    <li><a href="positions.html" class="resources_data">See All Positions</a></li>
+                                                                    
+                                                                </ul>
+                                                            </div><!-- /.col-md-2 -->
+                                                            
+                                                           
+                                                    </div><!-- /.row -->
+                                                  
+                                                </div><!-- /.submenu -->
+                                            </li><!--/.Company-->
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul><!-- /.menu -->                                        
+                                    </nav><!-- /.mainnav -->  
+                                </div><!-- /.nav-wrap -->
+                            </div><!-- /.flat-wrapper -->
+                        </div><!-- /.row -->
+                    </div><!-- /.container -->             
+                </div><!-- /.header-inner --> 
+            </header><!-- /.header -->
+        </div><!-- /.site-header -->
+
+        <!-- Site content -->
+        <div id="site-content">
+            <div class="flat-row pad-top100px pad-bottom100px parallax parallax4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="title-section text-center">
+                                        <h2 class="title color-ccc">Data Integration</h2>
+                                        <div class="title color-333333">
+                                            As a company, we work with Open Source and Commercial ETL<br> tools to implement integration Solutions in our projects.
+                                        </div>
+                                    </div><!-- /.title-section -->
+
+                                    <div class="flat-divider d60px"></div>
+
+                                </div><!-- /.col-md-12 -->
+                            </div><!-- /.row -->
+                        </div><!-- /.container -->
+                    </div><!-- /.flat-row -->
+                    <!-- <div class="flat-row">
+                        <div class="container">
+                        <div class="row">
+                            <div class="page-title text-center">
+                                <h2 class="title">Data Integration Services</h2>
+                            </div>
+                        </div>
+                        <div class="row pad-bottom60px">
+                            <div class="col-md-4">
+                                <div class="imagebox">
+                                    <div class="box-wrapper">
+                                        <div class="box-image1">
+                                            <a href="#"><img src="images/technologies/data_acquisition.png" alt="images"></a>
+                                        </div>
+                                        <div class="box-header">
+                                            <h3 class="box-title">
+                                                <a href="#">Data Acquisition</a>    
+                                            </h3>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="box-desc">As enterprises are dealing with information from across different environements, we should have a process in place to acquire data. Enterprises typically deal with data from devices, cloud, on premise, market data in various file formats in regular intervals. In this part of information management, we provide our expertise on how companies should strageise and implement the data acqusiton layer and use the same for validation and reconciliation at any given part of data life cycle. </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="imagebox">
+                                    <div class="box-wrapper">
+                                        <div class="box-image1">
+                                            <a href="#"><img src="images/technologies/data_transformation.png" alt="images"></a>
+                                        </div>
+                                        <div class="box-header">
+                                            <h3 class="box-title">
+                                                <a href="#">Data Transformation</a>    
+                                            </h3>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="box-desc">Data transformation is the process of transforming the data which is manageable, usable and meaningful to the business. This helps in maintaining data quality. Many times business will be getting data from various sources in its respective structure. Data may come from various ERP systems, RDBMS, Flat files, Excel sheets, XML, etc. Standardisation is a big issue in such cases. In this process of standardisation the data has to be transformed in a standardised format</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="imagebox">
+                                    <div class="box-wrapper">
+                                        <div class="box-image1">
+                                            <a href="#"><img src="images/technologies/data_load.png" alt="images"></a>
+                                        </div>
+                                        <div class="box-header">
+                                            <h3 class="box-title">
+                                                <a href="#">Data Load</a>    
+                                            </h3>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="box-desc">Data Load is an ETL take away which extracts data, transform and load data from source to the target. The data sources might include sequential files, indexed files, relational databases, external data sources, archives, enterprise applications, etc. Facilitates business analysis by providing quality data to help in gaining business intelligence business.... <br>Facilitates business analysis by providing quality data to help in gaining business intelligence.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+            </div>
+                    </div> -->
+            <div class="flat-row pad-top0px pad-bottom20px">
+                <div class="image-single style_1 clearfix">
+                    <div class="item-two-column section-iconlist">
+                        <div class="title-section style_1">
+                            <h3 class="title">We provide our servies in the following activities</h3>  
+                            <div class="desc">
+                                Integration is the key to exchange data from different applications to stream line the applications. We integrate data with in an enterprise or across enterprises based on the pre-defined workflows. In the current environment we live in real time integration is becoming a norm. This brings in lot of changes in the existing landscape of applications.
+                            </div>                      
+                        </div>
+                        <div class="flat-divider d30px"></div>
+                       
+                        <p>Each of the applications are integrating with each other through API’s to keep it near real time, light weight integration with minimum transformations (Dell Boomi, MuleSoft), nightly jobs to push and pull data (off line integration), with micro services coming in to play, this space is exploding with new ideas and technologies.</p>
+                        <blockquote><p>As a company, we work with Open Source and Commercial ETL tools to implement integration Solutions in our projects.</p></blockquote>
+                        <div class="flat-divider d30px"></div>
+                    </div><!-- /.item-two-column -->
+                    <div class="item-two-column mag-left flat-single-image-autoheight-style1 flat-single-image-autoheight-style">
+                        
+                    </div><!-- /.item-two-column -->
+                </div><!-- /.image-single -->
+            </div><!-- /.flat-row -->
+            <div class="flat-row bg-fff pad-top60px pad-bottom60px">
+                <div class="container">
+                    <div class="row">
+                        <div class="page-title text-center">
+                            <h2 class="title">Projects are in Data Integration</h2>
+                        </div>
+                    </div><!-- /.row -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="flat-iconbox-carousel" data-item="4" data-nav="false" data-dots="true" data-auto="true">
+                                <div class="iconbox style_3">
+                                    <div class="box-header">
+                                        <div class="box-icon">
+                                            <i class="fa icons icon-chart"></i>
+                                        </div>
+                                        <h5 class="box-title">Time-Log Integration </h5>
+                                    </div>
+                                    <div class="box-content">
+                                        <article><span>The primary objective of developing a cloud mapping platform is standardizing and consolidation of data provided by various service providers. The main benefits of developing a mapper on the cloud are Cost effective alternative, Automation of data transfers with least errors, improve turnaround time with better control on data and processing, Client can make use of this as a service instantaneously and Cost effective solution which can be utilized for multiple customers.</span>   </article>                                     
+                                    </div>
+                                </div>
+                                <div class="iconbox style_3">
+                                    <div class="box-header">
+                                        <div class="box-icon">
+                                            <i class="fa icons icon-globe"></i>
+                                        </div>
+                                        <h5 class="box-title">SaaS based Retail POS</h5>
+                                    </div>
+                                    <div class="box-content">
+                                        <article><span >In order to provide better services to 90 different customers, this company wanted to consolidate the data across 90 customers so that they can effectively provide data to their customers on need basis.
+                                            <br>Created an ETL solution which gets data from 90 different databases and populated analytical database for Power Users.
+                                            </span></article>                                        
+                                    </div>
+                                </div>
+                                <div class="iconbox style_3">
+                                    <div class="box-header">
+                                        <div class="box-icon">
+                                            <i class="fa icons icon-globe"></i>
+                                        </div>
+                                        <h5 class="box-title">Integration of Lead and Merchant Data</h5>
+                                    </div>
+                                    <div class="box-content">
+                                        <article><span>As part of the Lead management for an organization, we get partial information about the leads in JSON format. We take that JSON and perform Web Data Mining and integrate the data back to the Lead Management System.
+                                            <br>Series of business rules to be applied (Corp  Regional  National  Local) to parse the incoming data so that we reach the local representatives to convince for our products.
+                                            </span></article>                                        
+                                    </div>
+                                </div>
+                                <div class="iconbox style_3">
+                                    <div class="box-header">
+                                        <div class="box-icon">
+                                            <i class="fa icons icon-layers"></i>
+                                        </div>
+                                        <h5 class="box-title">Integration of Suppliers, Products, Inventory and sales</h5>
+                                    </div>
+                                    <div class="box-content">
+                                        <article><span>Worked for an MNC to build a DW solution and developed Integration programs using Informatica ETL tool.
+                                            <br>Designed, developed and implemented the workflows and automated the execution of pipelines using Control-M.
+                                            <br>
+                                    
+                                            </span> </article>                                       
+                                    </div>
+                                </div>
+                            </div><!-- /.flat-gallery-carousel -->
+                        </div><!-- /.col-md-12 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.flat-row -->
+            <div class="flat-row flat-row1">
+                <div class="container">
+                            <div class="row">
+                                <div class="page-title text-center">
+                                    <h2 class="title"> Technologies Used in Data Integration</h2>
+                                </div>
+                            </div><!-- /.row -->
+                            <div class="flat-row  pad-top60px pad-bottom60px">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="iconbox style_2">
+                                                <div class="box-header">
+                                                    <div class="box-icon">
+                                                        <img src="images/technologies/informatica.png" class="tech-icon">
+                                                    </div>
+                                                    <h5 class="box-title">Informatica</h5>
+                                                </div>
+                                                <div class="box-content">
+                                                    <!-- <span class="font-size-14px">• MS SQL Server, MYSQL, Migration Scripts, <br> • Reconciliation for Data Completeness</span>  -->
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-md-3 -->
+                                        <div class="col-md-2">
+                                            <div class="iconbox style_2">
+                                                <div class="box-header">
+                                                    <div class="box-icon">
+                                                        <img src="images/technologies/datastage.png" class="tech-icon">
+                                                    </div>
+                                                    <h5 class="box-title">Data Stage</h5>
+                                                </div>
+                                                <div class="box-content">
+                                                    <!-- <span class="font-size-14px">•	Ubuntu Cron Jobs, MYSQL Stored Procedures, SQL<br></span>     -->
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-md-3 -->
+                                        <div class="col-md-2">
+                                            <div class="iconbox style_2">
+                                                <div class="box-header">
+                                                    <div class="box-icon">
+                                                        <img src="images/technologies/talend.png" class="tech-icon">
+                                                    </div>
+                                                    <h5 class="box-title">Talend</h5>
+                                                </div>
+                                                <div class="box-content">
+                                                    <!-- <span class="font-size-14px">•	Oracle, SQL, PLSQL, Shell Script, Tableau.<br>•	Mongo DB, AWS S3, Oracle, SQL Server, Python Scripts, Automation<br></span>                                         -->
+                                                    
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-md-3 -->
+                                        <div class="col-md-2">
+                                            <div class="iconbox style_2">
+                                                <div class="box-header">
+                                                    <div class="box-icon">
+                                                        <img src="images/technologies/dellboomi.jpg" class="tech-icon">
+                                                    </div>
+                                                    <h5 class="box-title">Dell Boomi</h5>
+                                                </div>
+                                                <div class="box-content">
+                                                    <!-- <span class="font-size-14px">• MS SQL Server, MYSQL, Migration Scripts, <br> • Reconciliation for Data Completeness</span>  -->
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-md-3 -->
+                                        <div class="col-md-2">
+                                            <div class="iconbox style_2">
+                                                <div class="box-header">
+                                                    <div class="box-icon">
+                                                        <img src="images/technologies/python.png" class="tech-icon icon-width">
+                                                    </div>
+                                                    <h5 class="box-title">Python Airflow</h5>
+                                                </div>
+                                                <div class="box-content">
+                                                    <!-- <span class="font-size-14px">• MS SQL Server, MYSQL, Migration Scripts, <br> • Reconciliation for Data Completeness</span>  -->
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-md-3 -->
+                                        <div class="col-md-2">
+                                            <div class="iconbox style_2">
+                                                <div class="box-header">
+                                                    <div class="box-icon">
+                                                        <img src="images/technologies/microsoft.jpg" class="tech-icon icon-width">
+                                                    </div>
+                                                    <h5 class="box-title">Microsoft SQL Server</h5>
+                                                </div>
+                                                <div class="box-content">
+                                                    <!-- <span class="font-size-14px">•	Oracle, SQL, PLSQL, Shell Script, Tableau.<br>•	Mongo DB, AWS S3, Oracle, SQL Server, Python Scripts, Automation<br></span>                                         -->
+                                                    
+                                                </div>
+                                            </div>
+                                        </div><!-- /.col-md-3 -->
+                                    </div><!-- /.row -->
+                                    <div class="row">
+                                        
+                                    </div>
+                                </div><!-- /.container -->
+                            </div><!-- /.flat-row -->
+                        </div>
+                </div>
+       
+        <!-- Footer -->
+    <footer class="footer">
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-4 col-md-offset-2">
+                            <div class="widget widget_text information style_1">
+                                <h3 class="widget-title"><span class="style_1">C</span>ontact Us</h3>
+                                <div class="textwidget">
+                                   
+                                    <p>
+                                        <p class="family"><i class="fa fa-phone ft-widget-margin-right-12"></i>8049562349</p>
+                                        <i class="fa fa-envelope-o ft-widget-margin-right-10"></i> contact@aroha.co.in
+                                    </p>
+                                   
+                                </div>          
+                            </div><!-- /.widget .widget_text information -->
+                        </div><!-- /.col-md-3 -->
+                        
+                        <div class="col-md-5 col-sm-4">
+                            <div class="widget widget_text style_1">
+                                <div class="textwidget">
+                                   <!--// <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit rounded" value="Get in touch" data-toggle="modal" data-target="#myModal"></p>-->
+                                    <!-- Modal -->
+                                    <div id="myModal" class="modal fade " role="dialog" >
+                                      <div class="modal-dialog pad-mar20px">
+                                    
+                                        <!-- Modal content-->
+                                        <div class="modal-content ">
+                                          <div class="modal-header">
+                                            <!-- <button type="button" class="close close-btn" data-dismiss="modal">&times;</button> -->
+                                          </div>
+                                          <div class="modal-body">
+                                            <form id="contactform" method="post" action="./contact/contact-process.php">
+                                                <p><input id="name" name="name" type="text" value="" placeholder="Name" required="required"></p>
+                
+                                                <p><input id="email" name="email" type="email" value="" placeholder="Email" required="required"></p>
+                
+                                                <p><textarea name="message" placeholder="Comment" required="required"></textarea></p>
+                                                <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit rounded" value="Send Mail">
+                                                </p>
+                                            </form>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary close-btn rounded submit" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                    
+                                      </div>
+                                    </div>
+                                </div><!-- /.textwidget -->           
+                            </div><!-- /.widget .widget_text -->
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.footer-content -->
+
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="flat-wrapper">
+                            <div class="ft-wrap clearfix">
+                                <div class="copyright">
+                                    <div class="copyright-content">
+                                        Copyright © 2020 Aroha Technologies<a href="http://aroha.co.in/" target="_blank"></a>  
+                                    </div>
+                                </div>
+                            </div><!-- /.ft-wrap -->
+                        </div><!-- /.flat-wrapper -->
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.footer-content -->
+        </footer>
+
+        <!-- Go Top -->
+        <a class="go-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>   
+
+    </div>
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="javascript/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/jquery.easing.js"></script> 
+    <script type="text/javascript" src="javascript/jquery-waypoints.js"></script>    
+    <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+    <script type="text/javascript" src="javascript/owl.carousel.js"></script> 
+    <script type="text/javascript" src="javascript/jquery-validate.js"></script>
+    <script type="text/javascript" src="javascript/parallax.js"></script>
+    
+    <script type="text/javascript" src="javascript/main.js"></script>
+    <script type="text/javascript" src="javascript/platform.js"></script>
+    <script type="text/javascript" src="javascript/readmore.js"></script>
+    <script type="text/javascript">
+$(document).ready(function () {
+   $('article').readmore({
+            moreLink: '<a href="#" id="plus">[ more ]</a>',
+            lessLink: '<a href="#">[ less ]</a>',
+            collapsedHeight: 100,
+			speed:500,
+        });
+    $('#carousel-example').on('slid.bs.carousel', function () {
+        $('article').readmore({
+            moreLink: '<a href="#">[ more ]</a>',
+            lessLink: '<a href="#">[ less ]</a>',
+            collapsedHeight: 100,
+			speed:500,
+        });
+      });
+    });
+
+setCarouselHeight('#carousel-example');
+
+    function setCarouselHeight(id)
+    {
+        var slideHeight = [];
+        $(id+' .item').each(function()
+        {
+            // add all slide heights to an array
+            slideHeight.push($(this).height());
+        });
+
+        // find the tallest item
+        max = Math.max.apply(null, slideHeight);
+
+        // set the slide's height
+        $(id+' .carousel-content').each(function()
+        {
+            $(this).css('height',max+'px');
+        });
+    }
+    
+    </script>
+
+</body>
+</html>
